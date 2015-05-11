@@ -1,0 +1,10 @@
+<div class="jumbotron">
+
+  <table>
+    <tr ng-repeat="x in newGrid track by $index">
+      <td ng-repeat="n in x track by $index"> {{n}} </td>
+    </tr>
+  </table>
+
+  <button class="btn" ng-click="solvePuzzle()">Solve</button>
+</div>
